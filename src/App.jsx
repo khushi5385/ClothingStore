@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -11,7 +11,7 @@ import Checkout from './pages/Checkout';
 function App() {
   return (
     <CartProvider>
-      <Router>  {/* Remove basename for now */}
+      <Router>
         <div className="app">
           <Navbar />
           <main>
