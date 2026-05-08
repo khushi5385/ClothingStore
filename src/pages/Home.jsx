@@ -10,7 +10,7 @@ function Home() {
             <section style={styles.hero}>
                 <div style={styles.heroOverlay}>
                     <div style={styles.heroContent}>
-                        <h1 style={styles.heroTitle}>Summer Collection 2024</h1>
+                        <h1 style={styles.heroTitle}>Summer Collection 2026</h1>
                         <p style={styles.heroText}>Up to 50% off on selected items</p>
                         <Link to="/shop" style={styles.shopBtn}>Shop Now →</Link>
                     </div>
